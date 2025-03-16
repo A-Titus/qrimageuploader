@@ -1,7 +1,7 @@
 {
   "name": "image",
   "version": "0.1.0",
-  "homepage": "git@github.com:A-Titus/imageUploader.git",
+  "homepage": "git@github.com:A-Titus/qrimageuploader.git",
   "private": true,
   "dependencies": {
     "@cloudinary/react": "^1.14.1",
