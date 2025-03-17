@@ -141,7 +141,12 @@ const Upload = () => {
           />
         </UploadButton>
         <br />
-
+        <Button
+          onClick={handleUpload}
+          disabled={uploading || images.length === 0}
+        >
+          {uploading ? "Uploading..." : `Upload ${images.length} Photos`}
+        </Button>
         <br />
         <Link to="/gallery">
           <Button>View Gallery</Button>
